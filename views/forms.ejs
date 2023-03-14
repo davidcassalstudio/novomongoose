@@ -1,0 +1,14 @@
+<%- include('includes/header.ejs'); %>
+<body>
+    <section>
+        <div class="contact">
+            <form method="POST" class="form">
+                <input class="form-control" type="text" name="nome" placeholder="Nome Completo"/>
+                <input class="form-control" type="email" name="email" placeholder="exemplo@gmail.com"/>
+                <input class="form-control" type="tel" name="telefone" placeholder="(11)223344556"/>
+                <input class="form-control" type="password" name="senha" placeholder="********"/>
+                <button class="btn-send" type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </section>
+<%- include('includes/footer.ejs'); %>
